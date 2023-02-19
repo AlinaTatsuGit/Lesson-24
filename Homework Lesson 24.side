@@ -1,0 +1,812 @@
+{
+  "id": "5466537d-1a91-4c85-b3dc-131c30f40ac9",
+  "version": "2.0",
+  "name": "Homework Lesson 24",
+  "url": "https://www.moyo.ua/ua/",
+  "tests": [{
+    "id": "48b9a525-0f11-476c-8227-3e30fb73d63b",
+    "name": "Product comparison",
+    "commands": [{
+      "id": "55d4be72-fa78-4662-9e52-588c56d55a44",
+      "comment": "",
+      "command": "open",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "735ea15c-b673-4a42-b6d4-dd6ea09182a8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1265x701",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b2da5b37-9408-4a03-92c6-8c99a919ff47",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//header/div[2]/div/div/div/div[2]",
+      "targets": [
+        ["css=.header_catalog_btn_text", "css:finder"],
+        ["xpath=//header/div[2]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "79b3acfb-b4bc-45bb-a9c0-367815cf5ecb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item-2853 > span:nth-child(2)",
+      "targets": [
+        ["css=.item-2853 > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='js-menu']/ul/li[3]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Смартфони і телефони')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21a9ede7-c4f2-4d94-8438-8422d0f9f0e0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='Смартфони']",
+      "targets": [
+        ["css=.portal-category-list__item:nth-child(1) .img", "css:finder"],
+        ["xpath=//img[@alt='Смартфони']", "xpath:img"],
+        ["xpath=//div[@id='main-wrap']/main/div/div[2]/div/a/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01f2e6b7-f840-4d61-9a27-8c6f6999c424",
+      "comment": "",
+      "command": "click",
+      "target": "css=#filter-useful-action",
+      "targets": [
+        ["id=filter-useful-action", "id"],
+        ["name=useful", "name"],
+        ["css=#filter-useful-action", "css:finder"],
+        ["xpath=//input[@id='filter-useful-action']", "xpath:attributes"],
+        ["xpath=//div[@id='filter']/div[2]/div[4]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6346ab20-67c3-4b9c-9765-bf8791aef22d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Смартфон TECNO Camon 19 Pro (CI8n) 8/128Gb NFC 2SIM Eco Black",
+      "targets": [
+        ["linkText=Смартфон TECNO Camon 19 Pro (CI8n) 8/128Gb NFC 2SIM Eco Black", "linkText"],
+        ["css=.product-item:nth-child(5) .product-item_name", "css:finder"],
+        ["xpath=//a[contains(text(),'Смартфон TECNO Camon 19 Pro (CI8n) 8/128Gb NFC 2SIM Eco Black')]", "xpath:link"],
+        ["xpath=//div[@id='main-wrap']/main/div/div[2]/div[4]/div[2]/div[2]/div[5]/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/smartfon_tecno_camon_19_pro_ci8n_8_128gb_nfc_2sim_eco_black/523397.html')])[2]", "xpath:href"],
+        ["xpath=//div[5]/div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Смартфон TECNO Camon 19 Pro (CI8n) 8/128Gb NFC 2SIM Eco Black')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20822bb4-ca1f-4e27-9ba2-702cd1d06c38",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product_add-to-compare",
+      "targets": [
+        ["css=.product_add-to-compare", "css:finder"],
+        ["xpath=//div[@id='product-card']/div[3]/div/div[5]/div[5]", "xpath:idRelative"],
+        ["xpath=//div[5]/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbbee60a-7c16-4b3b-8c28-ff8957f0477f",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(3) > a > span",
+      "targets": [
+        ["css=li:nth-child(3) > a > span", "css:finder"],
+        ["xpath=//div[@id='main-wrap']/main/div/ol/li[3]/a/span", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'TECNO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e6e75aa-9472-4c87-8a70-19b9e98ac47a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.loaded_properties .product-item_compare-btn",
+      "targets": [
+        ["css=.loaded_properties .product-item_compare-btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='main-wrap']/main/div/div[2]/div[4]/div[2]/div[2]/div/div[3]/div[3]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'До порівняння')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d5f9c71-fe5c-4853-ad4f-9b26ae545c93",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header_actions_compare",
+      "targets": [
+        ["css=.header_actions_compare", "css:finder"],
+        ["xpath=//div[@id='main-wrap']/header/div[2]/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "baec26a1-ca70-412b-b594-91c6bde0620a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "/html/body/div[1]/main/div/div[1]/button[1]",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "d10413d5-78a2-483c-a1c9-33faf96f4c9e",
+    "name": "Search",
+    "commands": [{
+      "id": "386c7f50-cbf2-4b95-9ccf-d7c082370ee3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.moyo.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1867d1a-af19-4acc-b735-34847ee72834",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1265x701",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3370e00e-c5d4-4c70-97e1-1d820a0740c8",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["name=q", "name"],
+        ["css=#search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "hp omen"
+    }, {
+      "id": "b516a31d-5b02-4467-aab2-4213e81410e7",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["name=q", "name"],
+        ["css=#search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e799d8fc-5475-41c7-9f7c-e3b846492eaa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-item:nth-child(1) .product-item_content_wrap",
+      "targets": [
+        ["css=.product-item:nth-child(1) .product-item_content_wrap", "css:finder"],
+        ["xpath=//div[@id='main-wrap']/main/div/div[2]/div/div[2]/div[2]/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a0ce5243-9f1f-444d-b4fa-9c49055a4fe8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ноутбук HP OMEN 15-ek1004ua (422M0EA)",
+      "targets": [
+        ["linkText=Ноутбук HP OMEN 15-ek1004ua (422M0EA)", "linkText"],
+        ["css=.product-item:nth-child(1) .product-item_name", "css:finder"],
+        ["xpath=//a[contains(text(),'Ноутбук HP OMEN 15-ek1004ua (422M0EA)')]", "xpath:link"],
+        ["xpath=//div[@id='main-wrap']/main/div/div[2]/div/div[2]/div[2]/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/ua/noutbuk_hp_omen_15-ek1004ua_422m0ea_/505155.html')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ноутбук HP OMEN 15-ek1004ua (422M0EA)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "698ef893-4407-4fc4-9a11-2a306b3ba149",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product_item_btn > .buy-btn",
+      "targets": [
+        ["css=.product_item_btn > .buy-btn", "css:finder"],
+        ["xpath=//div[@id='main-product']/div/div[2]/div[2]/div/div[6]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[6]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bae41909-d2a4-4039-ba01-101146e490fb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.plus > .sc-gqjmRU",
+      "targets": [
+        ["css=.plus > .sc-gqjmRU", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c243c22f-33c3-4a3f-be91-8dd2711858ca",
+    "name": "Pre-order",
+    "commands": [{
+      "id": "50e02011-f3c7-46ad-a717-9bcf9002adcc",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.moyo.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d4a9317-2820-49ab-8e0f-98802eb0b44a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1265x701",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54c36e67-ba4a-48ee-beb0-fd4d850b920e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header_catalog_btn_text",
+      "targets": [
+        ["css=.header_catalog_btn_text", "css:finder"],
+        ["xpath=//header/div[2]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9353e7ba-2b1f-4ce9-89a3-4c97d096307c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.menu_link > span > span",
+      "targets": [
+        ["css=.menu_link > span > span", "css:finder"],
+        ["xpath=//div[@id='js-menu']/ul/li[18]/a/span[2]/span", "xpath:idRelative"],
+        ["xpath=//span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dacff9e1-e323-46b1-8fbd-12c24ca052aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.portal-category-list__item:nth-child(9) .img",
+      "targets": [
+        ["css=.portal-category-list__item:nth-child(9) .img", "css:finder"],
+        ["xpath=//img[@alt='ТВ, Фото, Відео, Аудіо']", "xpath:img"],
+        ["xpath=//div[@id='main-wrap']/main/div/div[2]/div/div/div[9]/a/img", "xpath:idRelative"],
+        ["xpath=//div[9]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18e24387-312c-49b5-9ba6-41c38fde71e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-item:nth-child(3) .buy-btn",
+      "targets": [
+        ["css=.product-item:nth-child(3) .buy-btn", "css:finder"],
+        ["xpath=//div[@id='main-wrap']/main/div/div[3]/div/div/div[2]/div[3]/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div[2]/div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81c0216f-bdb0-4073-9885-2b988c9ad39c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-preorder-submit",
+      "targets": [
+        ["css=.js-preorder-submit", "css:finder"],
+        ["xpath=//div[@id='preorder-modal']/div/div[2]/div[2]/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a81a96b-4a0d-46a6-9d11-2857a0315d11",
+      "comment": "",
+      "command": "click",
+      "target": "name=firstname",
+      "targets": [
+        ["name=firstname", "name"],
+        ["css=.focused > input", "css:finder"],
+        ["xpath=//input[@name='firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='preorder-modal']/div/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "063ef58b-e583-48ff-ae4d-baf4f6f82de5",
+      "comment": "",
+      "command": "type",
+      "target": "name=firstname",
+      "targets": [
+        ["name=firstname", "name"],
+        ["css=.focused > input", "css:finder"],
+        ["xpath=//input[@name='firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='preorder-modal']/div/div[2]/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "6b1ec388-4687-4034-8ada-18b06a706d36",
+      "comment": "",
+      "command": "type",
+      "target": "name=lastname",
+      "targets": [
+        ["name=lastname", "name"],
+        ["css=.focused > input", "css:finder"],
+        ["xpath=//input[@name='lastname']", "xpath:attributes"],
+        ["xpath=//div[@id='preorder-modal']/div/div[2]/div[2]/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "25b6168d-0032-41e0-9ccf-eed24421a09f",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.focused > input", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='preorder-modal']/div/div[2]/div[2]/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "+380(11)111-11-11"
+    }, {
+      "id": "0fd43aba-0725-4152-81b7-68291588d637",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.focused > input", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='preorder-modal']/div/div[2]/div[2]/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "test2TEST.com"
+    }, {
+      "id": "2a064a3f-ddc6-465f-9f2b-25949e7ba34c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-preorder-submit",
+      "targets": [
+        ["css=.js-preorder-submit", "css:finder"],
+        ["xpath=//div[@id='preorder-modal']/div/div[2]/div[2]/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b280462e-6612-4172-833e-688828fe6dec",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.js-preorder-submit",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "7a081a37-b6f1-417c-b1e4-8a98bd45e663",
+    "name": "Registration",
+    "commands": [{
+      "id": "ee331d23-6b72-4240-9f9d-8a19df0d5ec0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.moyo.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54cb09ae-a460-4ca0-bc6f-5d12eaaf51b1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1265x701",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ff44b01-a364-4c05-a7d8-ef7e814ea0c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.js-auth-modal-show",
+      "targets": [
+        ["css=.js-auth-modal-show", "css:finder"],
+        ["xpath=//div[2]/div/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c943ecc-aa0b-4e2a-94d9-f1203a06111f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-form_tabs_item:nth-child(2)",
+      "targets": [
+        ["css=.login-form_tabs_item:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='js-auth-modal']/div/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[5]/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "59c9fc6e-9563-4bbf-8089-777ce4b433cb",
+      "comment": "",
+      "command": "click",
+      "target": "name=firstname",
+      "targets": [
+        ["name=firstname", "name"],
+        ["css=.focused > input", "css:finder"],
+        ["xpath=//input[@name='firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='js-auth-modal-content']/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26c192d0-93d2-4901-b686-d5233d49c3dd",
+      "comment": "",
+      "command": "type",
+      "target": "name=firstname",
+      "targets": [
+        ["name=firstname", "name"],
+        ["css=.focused > input", "css:finder"],
+        ["xpath=//input[@name='firstname']", "xpath:attributes"],
+        ["xpath=//div[@id='js-auth-modal-content']/div/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/input", "xpath:position"]
+      ],
+      "value": "Testmoyo"
+    }, {
+      "id": "c0a2f301-dc4a-444b-b8e0-a6dfd4d05a0d",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.focused > input", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='js-auth-modal-content']/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fba9cc3-88c8-48e7-b793-71613304958a",
+      "comment": "",
+      "command": "type",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.login-form_section:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='js-auth-modal-content']/div/form/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "+380(97)111-11-11"
+    }, {
+      "id": "e33b5943-d1e9-4340-ab03-bc2f4d8aeefa",
+      "comment": "",
+      "command": "type",
+      "target": "css=.focused > input",
+      "targets": [
+        ["css=.focused > input", "css:finder"],
+        ["xpath=(//input[@name='email'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='js-auth-modal-content']/div/form/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[3]/div/input", "xpath:position"]
+      ],
+      "value": "test@gmail.com"
+    }, {
+      "id": "c1a7647b-8328-47b0-9cde-8712d1200363",
+      "comment": "",
+      "command": "click",
+      "target": "id=agree_with_reg",
+      "targets": [
+        ["id=agree_with_reg", "id"],
+        ["name=agree_with_reg", "name"],
+        ["css=#agree_with_reg", "css:finder"],
+        ["xpath=//input[@id='agree_with_reg']", "xpath:attributes"],
+        ["xpath=//div[@id='js-auth-modal-content']/div/form/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71203c9c-c25a-4911-832a-6bac1009adcf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-form_section:nth-child(5)",
+      "targets": [
+        ["css=.login-form_section:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='js-auth-modal-content']/div/form/div[5]", "xpath:idRelative"],
+        ["xpath=//form/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "65837df2-5bd6-4a80-909f-ddea7a165658",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='js-auth-modal-content']/div/form/div[5]",
+      "targets": [
+        ["css=.login-form_section:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='js-auth-modal-content']/div/form/div[5]", "xpath:idRelative"],
+        ["xpath=//form/div[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10bc577c-0ec5-411e-b1de-f880210fe07d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(.,'Увійти через google')]",
+      "targets": [
+        ["css=.btn_text", "css:finder"],
+        ["xpath=//div[@id='js-auth-modal-content']/div/form/div[7]/button/span[2]", "xpath:idRelative"],
+        ["xpath=//div[7]/button/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Увійти через google')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5b979ec-46fb-491d-9f25-62c7145b1afb",
+      "comment": "",
+      "command": "assertElementNotPresent",
+      "target": "xpath=//span[contains(.,'Увійти через gogle')]",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "cb5490e1-eb5e-4e1d-9aae-c296e68ee252",
+    "name": "Blog",
+    "commands": [{
+      "id": "18b63ae7-1c51-4feb-9d12-ec7499557ab4",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.moyo.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a63de6e1-888e-4ce2-ba4f-294d9a88a0b5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1265x701",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "47561d02-4546-4f68-961e-758535620b26",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Блог",
+      "targets": [
+        ["linkText=Блог", "linkText"],
+        ["css=.header_nav_item:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Блог')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/ua/news.html')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Блог')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f6dddd3-9251-4564-86c8-bbae13f6ada2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//a[contains(text(),'Блог')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98bebff7-3329-403b-8798-cc1fbef30a7e",
+      "comment": "",
+      "command": "verifyNotText",
+      "target": "linkText=Поради",
+      "targets": [],
+      "value": "Паради"
+    }, {
+      "id": "ab6e0e68-a863-4956-8c2e-d8caacc02fa5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.news-item:nth-child(1) .lazy-loaded",
+      "targets": [
+        ["css=.news-item:nth-child(1) .lazy-loaded", "css:finder"],
+        ["xpath=//img[@alt='2 види газового обладнання для дому, які допоможуть приготувати їжу та обігріти приміщення']", "xpath:img"],
+        ["xpath=//div/div/div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7703854e-7583-4dd2-b848-5e7b49f2b8dc",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "fbeb0cb9-5dd2-4c76-b782-9cdeec6b4d3d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='movie_player']/div[4]/button",
+      "targets": [
+        ["css=.ytp-large-play-button", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7224d971-a18b-4478-8439-b8a836c68435",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-progress-bar",
+      "targets": [
+        ["css=.ytp-progress-bar", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[28]/div/div[2]", "xpath:idRelative"],
+        ["xpath=//div[28]/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52dd44c5-6334-4f86-9831-8ba776f60c5a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ytp-play-button",
+      "targets": [
+        ["css=.ytp-play-button", "css:finder"],
+        ["xpath=//div[@id='movie_player']/div[28]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "30646bf9-3480-4abc-a717-1e5efd7adb64",
+    "name": "Order book",
+    "commands": [{
+      "id": "9400e477-5ef7-4bd5-9281-b805613512c5",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.moyo.ua/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e0ba52d9-9035-4e49-b923-6694f057ef6f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1265x701",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5f3b9dde-9e58-4fb8-8c54-9f27a310d5f7",
+      "comment": "",
+      "command": "type",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["name=q", "name"],
+        ["css=#search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "книга"
+    }, {
+      "id": "93bdae9b-3365-4d72-885c-93337fe2a430",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=search-input",
+      "targets": [
+        ["id=search-input", "id"],
+        ["name=q", "name"],
+        ["css=#search-input", "css:finder"],
+        ["xpath=//input[@id='search-input']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "07446476-7643-44bb-997e-12971f789fb0",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[2]/div",
+      "targets": [
+        ["css=.\\34 72143", "css:finder"],
+        ["xpath=//a[@id='6b86d211-34a7-4b12-9a4f-7f6c93c26302']/div", "xpath:idRelative"],
+        ["xpath=//a[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "feb40589-7969-4bb9-93ec-626f68bd7f8f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='product-card']/div[3]/div/div[7]/button",
+      "targets": [
+        ["css=.product_buy-info:nth-child(8) > .buy-btn", "css:finder"],
+        ["xpath=//div[@id='product-card']/div[3]/div/div[7]/button", "xpath:idRelative"],
+        ["xpath=//div[7]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Оформити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a340c0fb-38b7-4f14-81d9-f98478a41e66",
+      "comment": "",
+      "command": "click",
+      "target": "css=.green",
+      "targets": [
+        ["css=.green", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f98f134-e59a-4351-8d5f-addcc8bc4529",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='tab-item-delivery']/div/h2",
+      "targets": [
+        ["css=#tab-item-delivery .sc-bxivhb", "css:finder"],
+        ["xpath=//div[@id='tab-item-delivery']/div/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'2. Доставка')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08ab5be0-c161-480f-8506-b43d1ca086df",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "xpath=//div[@id='tab-item-delivery']/div/h2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ab9d8259-89de-4806-9622-d43c2da7db50",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tab-item-payment .heading-index",
+      "targets": [
+        ["css=#tab-item-payment .heading-index", "css:finder"],
+        ["xpath=//div[@id='tab-item-payment']/div/h2/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/h2/span", "xpath:position"],
+        ["xpath=//span[contains(.,'3. ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57bc3ef8-c448-478b-abf7-d89ee5d82cef",
+      "comment": "",
+      "command": "click",
+      "target": "css=#contactsFormBtn > .rds-btn",
+      "targets": [
+        ["css=#contactsFormBtn > .rds-btn", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='contactsFormBtn']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Продовжити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8713c13d-7cd8-4c5e-9f23-49ddc3ff8744",
+      "comment": "",
+      "command": "click",
+      "target": "css=.remove-close",
+      "targets": [
+        ["css=.remove-close", "css:finder"],
+        ["xpath=//div[@id='react-child-checkout-app']/div/div[2]/div[2]/div/div/div[2]/section/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1982af9b-9273-4be3-be6a-87af0020b8d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header_actions_cart",
+      "targets": [
+        ["css=.header_actions_cart", "css:finder"],
+        ["xpath=//div[3]/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5bcbc94c-bc9f-438d-88e7-973cb5c0e74b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.modal__close",
+      "targets": [
+        ["css=.modal__close", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "a2260460-645f-4fde-b6ef-776978208e91",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c7041b4c-360f-47de-b0d3-197933ff8ec0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["48b9a525-0f11-476c-8227-3e30fb73d63b"]
+  }],
+  "urls": ["https://www.moyo.ua/ua/"],
+  "plugins": []
+}
